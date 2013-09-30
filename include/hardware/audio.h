@@ -127,6 +127,12 @@ __BEGIN_DECLS
 /* Query Sound Card Status */
 #define AUDIO_PARAMETER_KEY_SND_CARD_STATUS "SND_CARD_STATUS"
 
+/* Query handle fm parameter*/
+#define AUDIO_PARAMETER_KEY_HANDLE_FM "handle_fm"
+
+/* Query fm volume */
+#define AUDIO_PARAMETER_KEY_FM_VOLUME "fm_volume"
+
 /**
  * audio codec parameters
  */
