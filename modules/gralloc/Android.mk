@@ -34,4 +34,8 @@ ifeq ($(BOARD_HTC_3D_SUPPORT),true)
    LOCAL_CFLAGS += -DHTC_3D_SUPPORT
 endif
 
+ifeq ($(BOARD_HTC_3D_SUPPORT),true)
+   LOCAL_CFLAGS += -DHTC_3D_SUPPORT
+endif
+
 include $(BUILD_SHARED_LIBRARY)

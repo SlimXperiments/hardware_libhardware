@@ -140,6 +140,7 @@ enum {
     GRALLOC_USAGE_HWC_HWOVERLAY         = 0x20000000,
 #endif
 };
+==
 
 #ifdef QCOM_HARDWARE
 enum {

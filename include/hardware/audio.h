@@ -444,7 +444,6 @@ struct audio_stream_out {
                                uint64_t *frames, struct timespec *timestamp);
 #endif
 #ifdef QCOM_DIRECTTRACK
-
     /**
     * return the current timestamp after quering to the driver
      */
